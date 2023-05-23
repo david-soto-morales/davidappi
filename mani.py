@@ -4,4 +4,4 @@ app=FastAPI()
 
 @app.get("/")
 def index():
-    return "hola a todo "
+    return "hola a todos "
