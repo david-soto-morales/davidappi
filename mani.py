@@ -5,6 +5,6 @@ app=FastAPI()
 @app.get("/")
 def index():
     return "hola a todos "
-@app.get("/tortas")
-def dav():
-    return" este mensaje esta chido"
+@app.get("/tortas/{num}")
+def dav(num):
+    return num
