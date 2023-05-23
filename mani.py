@@ -7,6 +7,12 @@ def index():
     return "hola a todos "
 @app.get("/tortas/{num}")
 def dav(num):
+    tortas={
+     1"jamon"
+      2"milanes"
+        3"pollo"
+        4"mole"
+    }
     return num
 @app.get("/conversor_caf/{C}")
 def temp{C}:
